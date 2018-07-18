@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 public class CtgresActivity extends AppCompatActivity {
 
-    Button btnHandi,btnAmbrosia,btnGreedy,btnCube,btnBonanaza,btnRegalo,btnPavilion,btnErrante;
+    Button btnHandi,btnMeridian,btnGreedy,btnCube,btnBonanaza,btnRegalo,btnPavilion,btnErrante;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +17,7 @@ public class CtgresActivity extends AppCompatActivity {
         setContentView(R.layout.activity_ctgres);
 
         btnHandi=findViewById(R.id.btn_handi);
-        btnAmbrosia=findViewById(R.id.btn_ambrosia);
+        btnMeridian=findViewById(R.id.btn_meridian);
         btnGreedy=findViewById(R.id.btn_greedy);
         btnCube=findViewById(R.id.btn_cube);
         btnBonanaza=findViewById(R.id.btn_bonanza);
@@ -36,7 +36,7 @@ public class CtgresActivity extends AppCompatActivity {
 
             }
         });
-        btnAmbrosia.setOnClickListener(new View.OnClickListener() {
+        btnMeridian.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(CtgresActivity.this,DetailsActivity.class);
