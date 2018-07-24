@@ -29,7 +29,7 @@ public class CtgresActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent=new Intent(CtgresActivity.this,DetailsActivity.class);
+                Intent intent=new Intent(CtgresActivity.this,CtgDetailsActivity.class);
                 intent.putExtra("res_name","one");
                 Toast.makeText(CtgresActivity.this, "Handi Restaurant", Toast.LENGTH_SHORT).show();
                 startActivity(intent);
@@ -39,7 +39,7 @@ public class CtgresActivity extends AppCompatActivity {
         btnMeridian.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(CtgresActivity.this,DetailsActivity.class);
+                Intent intent=new Intent(CtgresActivity.this,CtgDetailsActivity.class);
                 intent.putExtra("res_name","two");
                 Toast.makeText(CtgresActivity.this, "Meridian", Toast.LENGTH_SHORT).show();
                 startActivity(intent);
@@ -49,7 +49,7 @@ public class CtgresActivity extends AppCompatActivity {
         btnGreedy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(CtgresActivity.this,DetailsActivity.class);
+                Intent intent=new Intent(CtgresActivity.this,CtgDetailsActivity.class);
                 intent.putExtra("res_name","three");
                 Toast.makeText(CtgresActivity.this, "Greedy Guts", Toast.LENGTH_SHORT).show();
                 startActivity(intent);
@@ -59,7 +59,7 @@ public class CtgresActivity extends AppCompatActivity {
         btnCube.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(CtgresActivity.this,DetailsActivity.class);
+                Intent intent=new Intent(CtgresActivity.this,CtgDetailsActivity.class);
                 intent.putExtra("res_name","four");
                 Toast.makeText(CtgresActivity.this, "Cube", Toast.LENGTH_SHORT).show();
                 startActivity(intent);
@@ -68,7 +68,7 @@ public class CtgresActivity extends AppCompatActivity {
         btnBonanaza.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(CtgresActivity.this,DetailsActivity.class);
+                Intent intent=new Intent(CtgresActivity.this,CtgDetailsActivity.class);
                 intent.putExtra("res_name","five");
                 Toast.makeText(CtgresActivity.this, "Bonanza", Toast.LENGTH_SHORT).show();
                 startActivity(intent);
@@ -77,7 +77,7 @@ public class CtgresActivity extends AppCompatActivity {
         btnRegalo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(CtgresActivity.this,DetailsActivity.class);
+                Intent intent=new Intent(CtgresActivity.this,CtgDetailsActivity.class);
                 intent.putExtra("res_name","six");
                 Toast.makeText(CtgresActivity.this, "Regalo", Toast.LENGTH_SHORT).show();
                 startActivity(intent);
@@ -86,7 +86,7 @@ public class CtgresActivity extends AppCompatActivity {
         btnPavilion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(CtgresActivity.this,DetailsActivity.class);
+                Intent intent=new Intent(CtgresActivity.this,CtgDetailsActivity.class);
                 intent.putExtra("res_name","seven");
                 Toast.makeText(CtgresActivity.this, "The Pavilion", Toast.LENGTH_SHORT).show();
                 startActivity(intent);
@@ -95,7 +95,7 @@ public class CtgresActivity extends AppCompatActivity {
         btnErrante.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(CtgresActivity.this,DetailsActivity.class);
+                Intent intent=new Intent(CtgresActivity.this,CtgDetailsActivity.class);
                 intent.putExtra("res_name","eight");
                 Toast.makeText(CtgresActivity.this, "Errante", Toast.LENGTH_SHORT).show();
                 startActivity(intent);
