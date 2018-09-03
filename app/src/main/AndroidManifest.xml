@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.user.food_o_pedia">
-    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -18,7 +26,37 @@
             </intent-filter>
         </activity>
         <activity android:name=".CtgresActivity" />
-        <activity android:name=".DetailsActivity" />
+        <activity android:name=".CtgDetailsActivity" />
+        <activity android:name=".CityActivity" />
+        <activity android:name=".DhakaresActivity" />
+        <activity android:name=".DhakaDetailsActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBz8j5C1G4A_5nxV8Z9q1AvT5Z5x3QcBh4" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".KhulnaresActivity" />
+        <activity android:name=".SylhetresActivity" />
+        <activity android:name=".RangpurresActivity" />
+        <activity android:name=".RajshahiresActivity" />
+        <activity android:name=".MymensinghresActivity" />
+        <activity android:name=".BarishalresActivity" />
+        <activity android:name=".SylhetDetailsActivity" />
+        <activity android:name=".RajshahiDetailsActivity" />
+        <activity android:name=".RangpurDetailsActivity" />
+        <activity android:name=".BarishalDetailsActivity" />
+        <activity android:name=".MymensinghDetailsActivity" />
+        <activity android:name=".KhulnaDetailsActivity"></activity>
     </application>
 
 </manifest>

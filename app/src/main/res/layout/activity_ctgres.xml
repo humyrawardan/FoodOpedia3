@@ -16,6 +16,19 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#887878"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Restaurants of Chattogram"
+                android:textColor="@android:color/background_light"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:fontFamily="serif" />
+
             <LinearLayout
                 android:id="@+id/layout8"
                 android:layout_width="match_parent"
@@ -96,7 +109,7 @@
                 android:id="@+id/layout4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_below="@+id/layout3"
+                android:layout_below="@+id/layout2"
                 android:background="@android:drawable/zoom_plate"
                 android:orientation="vertical">
 
@@ -112,7 +125,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/layout3"
+                android:id="@+id/layout2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/layout2"

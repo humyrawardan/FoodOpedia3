@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f39999"
+    tools:context=".CtgresActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#887878"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Restaurants of Khulna"
+                android:textColor="@android:color/background_light"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:fontFamily="serif" />
+
+            <LinearLayout
+                android:id="@+id/layout8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/layout7"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_mejban"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Mejban bari"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/layout6"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="City Light Cafe"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/layout5"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_fire"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Firefly Restaurant"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/layout4"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_mega"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Mega Biriyani"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/layout2"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_fakrul"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Faruk Biriyani Ghar"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/layout2"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_radhuni"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Radhuni Hotel"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/layout1"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_grill"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Grill House"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:drawable/zoom_plate"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_kacchi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/menuitem_background"
+                    android:text="Kacchi Ghor"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
