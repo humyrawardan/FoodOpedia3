@@ -36,7 +36,7 @@ public class DhakaDetailsActivity extends AppCompatActivity {
         if (getName.equals("one")) {
             imgRes1.setImageResource(R.drawable.star);
             txtName.setText("Star Kabab");
-            txtDesc.setText("Address:Banani, Dhaka City 1213, Bangladesh\n\nHours: Open 10:00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[0]);
+            txtDesc.setText("A KABAB CHAIN RESTAURANT\n\nAddress:Banani, Dhaka City 1213, Bangladesh\n\nHours: Open 10:00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[0]);
             btnCell.setText("CALL");
 
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -71,7 +71,7 @@ public class DhakaDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("two")) {
             imgRes1.setImageResource(R.drawable.latitude23);
             txtName.setText("Latitude 23");
-            txtDesc.setText("Address: House 236, Lake Road, Mohakhali New Dohs, Dhaka 1206\n\nHours: Open 10.00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[1]);
+            txtDesc.setText("AN INTERNATIONAL CUISINE RESTAURANT\n\nAddress: House 236, Lake Road, Mohakhali New Dohs, Dhaka 1206\n\nHours: Open 10.00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[1]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -105,7 +105,7 @@ public class DhakaDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("three")) {
             imgRes1.setImageResource(R.drawable.olea);
             txtName.setText("Olea");
-            txtDesc.setText("Address: Airport Road | Le Meridien, 79/A Commercial Area, Dhaka City 1229\n\nHours: Closes soon: 10PM ⋅ Opens 10AM Thu\n\nMobile Number-" +mobilenumber[2]);
+            txtDesc.setText("AN INTERNATIONAL CUISINE RESTAURANT\n\nAddress: Airport Road | Le Meridien, 79/A Commercial Area, Dhaka City 1229\n\nHours: Closes soon: 10PM ⋅ Opens 10AM Thu\n\nMobile Number-" +mobilenumber[2]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -139,7 +139,7 @@ public class DhakaDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("four")) {
             imgRes1.setImageResource(R.drawable.nandos);
             txtName.setText("Nando's");
-            txtDesc.setText("Address: No. 16 Rd | 43, 27 Old, Dhaka City 1209\n\nHours: Open 9.00AM Closes 11:59PM\n\nMobile Number- "+mobilenumber[3]);
+            txtDesc.setText("AN INTERNATIONAL COUSINE RESTAURANT\n\nAddress: No. 16 Rd | 43, 27 Old, Dhaka City 1209\n\nHours: Open 9.00AM Closes 11:59PM\n\nMobile Number- "+mobilenumber[3]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -174,7 +174,7 @@ public class DhakaDetailsActivity extends AppCompatActivity {
         else if (getName.equals("five")) {
             imgRes1.setImageResource(R.drawable.favola);
             txtName.setText("Favola");
-            txtDesc.setText("Address:Airport Road | 79/A Commercial Area, Le Meridien, Nikunja 2, Dhaka City 1229\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[4]);
+            txtDesc.setText("AN INTERNATIONAL CUISINE RESTAURANT\n\nAddress:Airport Road | 79/A Commercial Area, Le Meridien, Nikunja 2, Dhaka City 1229\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[4]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -209,7 +209,7 @@ public class DhakaDetailsActivity extends AppCompatActivity {
         else if (getName.equals("six")) {
             imgRes1.setImageResource(R.drawable.bunka);
             txtName.setText("Bunka");
-            txtDesc.setText("Address:Road 96, House 19, Gulshan 2, Dhaka City 1212\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[5]);
+            txtDesc.setText("A KOREAN RESTAURANT\n\nAddress:Road 96, House 19, Gulshan 2, Dhaka City 1212\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[5]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -244,7 +244,7 @@ public class DhakaDetailsActivity extends AppCompatActivity {
         else if (getName.equals("seven")) {
             imgRes1.setImageResource(R.drawable.izumi);
             txtName.setText("Izumi");
-            txtDesc.setText("Address: House 24, Road 113 | Gulshan-2, Dhaka City\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[6]);
+            txtDesc.setText("A JAPANESE RESTAURANT\n\nAddress: House 24, Road 113 | Gulshan-2, Dhaka City\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[6]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -279,7 +279,7 @@ public class DhakaDetailsActivity extends AppCompatActivity {
         else if (getName.equals("eight")) {
             imgRes1.setImageResource(R.drawable.prego);
             txtName.setText("Prego");
-            txtDesc.setText("Address: 45 Main Gulshan Avenue Plot-01 Road | Gulshan 2, Dhaka City 1212\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[7]);
+            txtDesc.setText("A MULTI CUISINE RESTAURANT\n\nAddress: 45 Main Gulshan Avenue Plot-01 Road | Gulshan 2, Dhaka City 1212\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[7]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
