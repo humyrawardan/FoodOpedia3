@@ -37,7 +37,7 @@ public class KhulnaDetailsActivity extends AppCompatActivity {
         if (getName.equals("one")) {
             imgRes7.setImageResource(R.drawable.khulna1);
             txtName.setText("Mejban Bari");
-            txtDesc.setText("Address:Gollamari - Sonadanga Bypass Rd, Khulna 9208\n\nHours: Open 10:00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[0]);
+            txtDesc.setText("A HOUSE OF AUTHENTIC AND MOUTH WATERING MEJBANI GOSHT FROM CHITTAGONG\n\nAddress:Gollamari - Sonadanga Bypass Rd, Khulna 9208\n\nHours: Open 10:00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[0]);
             btnCell.setText("CALL");
             btnMap.setText("MAP LOCATION");
 
@@ -73,7 +73,7 @@ public class KhulnaDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("two")) {
             imgRes7.setImageResource(R.drawable.khulna2);
             txtName.setText("City Light Cafe");
-            txtDesc.setText("Address:G.M. Baksh Tower, 22 Sir Iqbal Rd, Khulna 9100\n\nHours: Open 10.00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[1]);
+            txtDesc.setText("A MULTI CUISINE RESTAURANT\n\nAddress:G.M. Baksh Tower, 22 Sir Iqbal Rd, Khulna 9100\n\nHours: Open 10.00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[1]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -109,7 +109,7 @@ public class KhulnaDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("three")) {
             imgRes7.setImageResource(R.drawable.khulna3);
             txtName.setText("Firefly Restaurant");
-            txtDesc.setText("Address:Khulna\n\nHours: Closes soon: 10PM ⋅ Opens 10AM Thu\n\nMobile Number-" +mobilenumber[2]);
+            txtDesc.setText("A MULTI CUISINE RESTAURANT\n\nAddress:Khulna\n\nHours: Closes soon: 10PM ⋅ Opens 10AM Thu\n\nMobile Number-" +mobilenumber[2]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -145,7 +145,7 @@ public class KhulnaDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("four")) {
             imgRes7.setImageResource(R.drawable.khulna4);
             txtName.setText("Mega Biriyani");
-            txtDesc.setText("Address:Eid Ghah Rd, Meghar More, Khalishpur, Khulna 9100\n\nHours: Open 9.00AM Closes 11:59PM\n\nMobile Number- "+mobilenumber[3]);
+            txtDesc.setText("A BIRYANI HOUSE\n\nAddress:Eid Ghah Rd, Meghar More, Khalishpur, Khulna 9100\n\nHours: Open 9.00AM Closes 11:59PM\n\nMobile Number- "+mobilenumber[3]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -181,7 +181,7 @@ public class KhulnaDetailsActivity extends AppCompatActivity {
         else if (getName.equals("five")) {
             imgRes7.setImageResource(R.drawable.khulna5);
             txtName.setText("Fakrul Biriyani Ghar");
-            txtDesc.setText("Address: 338,First floor, Hayder Complex, Near Sandhya Bazar, Sher-E-Bangla Road, Moylapota More, Khulna\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[4]);
+            txtDesc.setText("A BIRYANI HOUSE\n\nAddress: 338,First floor, Hayder Complex, Near Sandhya Bazar, Sher-E-Bangla Road, Moylapota More, Khulna\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[4]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -217,7 +217,7 @@ public class KhulnaDetailsActivity extends AppCompatActivity {
         else if (getName.equals("six")) {
             imgRes7.setImageResource(R.drawable.khulna6);
             txtName.setText("Radhuni Hotel");
-            txtDesc.setText("Address:207, First Floor, Hayder Complex, Sher-E-Bangla Road, Moylapota More, Khulna 9100\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[5]);
+            txtDesc.setText("A BANGLA CUISINE RESTAURANT\n\nAddress:207, First Floor, Hayder Complex, Sher-E-Bangla Road, Moylapota More, Khulna 9100\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[5]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -253,7 +253,7 @@ public class KhulnaDetailsActivity extends AppCompatActivity {
         else if (getName.equals("seven")) {
             imgRes7.setImageResource(R.drawable.khulna7);
             txtName.setText("Grill House");
-            txtDesc.setText("Address:KDA, New Market, Khulna - Jessore - Dhaka Hwy, Khulna 9100\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[6]);
+            txtDesc.setText("A KABAB HOUSE\n\nAddress:KDA, New Market, Khulna - Jessore - Dhaka Hwy, Khulna 9100\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[6]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -289,7 +289,7 @@ public class KhulnaDetailsActivity extends AppCompatActivity {
         else if (getName.equals("eight")) {
             imgRes7.setImageResource(R.drawable.khulna8);
             txtName.setText("Kacchi Ghar");
-            txtDesc.setText("Address:KDA Avenue, Khulna\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[7]);
+            txtDesc.setText("AN AUTHENTIC KACCHI HOUSE\n\nAddress:KDA Avenue, Khulna\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[7]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
