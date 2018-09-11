@@ -36,7 +36,7 @@ public class CtgDetailsActivity extends AppCompatActivity {
         if (getName.equals("one")) {
             imgRes.setImageResource(R.drawable.handi);
             txtName.setText("Handi");
-            txtDesc.setText("Address: Punak Bhaban, Dampara Police Line, M M Ali Road, CDA Avenue, Chittagong 4000\n\nHours: Open 10:00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[0]);
+            txtDesc.setText("AN INDIAN CUISINE RESTAURANT\n\nAddress: Punak Bhaban, Dampara Police Line, M M Ali Road, CDA Avenue, Chittagong 4000\n\nHours: Open 10:00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[0]);
             btnCell.setText("CALL");
             btnMap.setText("MAP LOCATION");
 
@@ -72,7 +72,7 @@ public class CtgDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("two")) {
             imgRes.setImageResource(R.drawable.meridian);
             txtName.setText("Meridian");
-            txtDesc.setText("Address: 1367 CDA Avenue, Chittagong 4000\n\nHours: Open 10.00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[1]);
+            txtDesc.setText("A MULTI CUISINE RESTAURANT\n\nAddress: 1367 CDA Avenue, Chittagong 4000\n\nHours: Open 10.00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[1]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -108,7 +108,7 @@ public class CtgDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("three")) {
             imgRes.setImageResource(R.drawable.greedy);
             txtName.setText("Greedy Guts");
-            txtDesc.setText("Address: Naval Avenue, CRB Road, Chittagong 4000\n\nHours: Closes soon: 10PM ⋅ Opens 10AM Thu\n\nMobile Number-" +mobilenumber[2]);
+            txtDesc.setText("A MULTI CUISINE RESTAURANT\n\nAddress: Naval Avenue, CRB Road, Chittagong 4000\n\nHours: Closes soon: 10PM ⋅ Opens 10AM Thu\n\nMobile Number-" +mobilenumber[2]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -144,7 +144,7 @@ public class CtgDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("four")) {
             imgRes.setImageResource(R.drawable.cube);
             txtName.setText("Cube");
-            txtDesc.setText("Address: 84/A, Khan Manor, Jamalkhan, Chittagong 4000\n\nHours: Open 9.00AM Closes 11:59PM\n\nMobile Number- "+mobilenumber[3]);
+            txtDesc.setText("AN AMERICAN CUISINE RESTAURANT\n\nAddress: 84/A, Khan Manor, Jamalkhan, Chittagong 4000\n\nHours: Open 9.00AM Closes 11:59PM\n\nMobile Number- "+mobilenumber[3]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -180,7 +180,7 @@ public class CtgDetailsActivity extends AppCompatActivity {
         else if (getName.equals("five")) {
             imgRes.setImageResource(R.drawable.bonanza);
             txtName.setText("Bonanza");
-            txtDesc.setText("Address: 2nd & 3rd Floor 1692, Golden Plaza, CD Avenue, GEC Circle, Chittagong 4000\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[4]);
+            txtDesc.setText("A MULTI CUISINE RESTAURANT\n\nAddress: 2nd & 3rd Floor 1692, Golden Plaza, CD Avenue, GEC Circle, Chittagong 4000\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[4]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -216,7 +216,7 @@ public class CtgDetailsActivity extends AppCompatActivity {
         else if (getName.equals("six")) {
             imgRes.setImageResource(R.drawable.regalo);
             txtName.setText("Regalo");
-            txtDesc.setText("Address: 42, Moss Rose Heights, M.M Ali road, WASA Circle, Lalkhan Bazar, Chittogong 4000\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[5]);
+            txtDesc.setText("AN INTERNATIONAL CUISINE RESTAURANT\n\nAddress: 42, Moss Rose Heights, M.M Ali road, WASA Circle, Lalkhan Bazar, Chittogong 4000\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[5]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -252,7 +252,7 @@ public class CtgDetailsActivity extends AppCompatActivity {
         else if (getName.equals("seven")) {
             imgRes.setImageResource(R.drawable.pavilion);
             txtName.setText("The Pavilion");
-            txtDesc.setText("Address: 787, Avenue Centre, CDA Avenue, East Nasirabad, Chittagong 4000\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[6]);
+            txtDesc.setText("A MULTI CUISINE RSETAURANT\n\nAddress: 787, Avenue Centre, CDA Avenue, East Nasirabad, Chittagong 4000\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[6]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -288,7 +288,7 @@ public class CtgDetailsActivity extends AppCompatActivity {
         else if (getName.equals("eight")) {
             imgRes.setImageResource(R.drawable.errante);
             txtName.setText("Errante");
-            txtDesc.setText("Address: 94, 8th Floor & Rooftop, Eves Center, Nasirabad Housing Society, Road No 3, Nasirabad, Chittagong 4203\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[7]);
+            txtDesc.setText("A MULTI CUISINE RESTAURANT\n\nAddress: 94, 8th Floor & Rooftop, Eves Center, Nasirabad Housing Society, Road No 3, Nasirabad, Chittagong 4203\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[7]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
