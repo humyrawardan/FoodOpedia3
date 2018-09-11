@@ -38,7 +38,7 @@ public class BarishalDetailsActivity extends AppCompatActivity {
         if (getName.equals("one")) {
             imgRes5.setImageResource(R.drawable.barishal1);
             txtName.setText("BFG Restaurant");
-            txtDesc.setText("Address:Sadar Rd, Barisal 8200\n\nHours: Open 10:00AM Closes 11:30PM\n\nMobile Number-" + mobilenumber[0]);
+            txtDesc.setText("A 3 STAR CHINESE RESTAURANT\n\nAddress:Sadar Rd, Barisal 8200\n\nHours: Open 10:00AM Closes 11:30PM\n\nMobile Number-" + mobilenumber[0]);
             btnCell.setText("CALL");
             btnMap.setText("MAP LOCATION");
 
@@ -74,7 +74,7 @@ public class BarishalDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("two")) {
             imgRes5.setImageResource(R.drawable.barishal2);
             txtName.setText("The River Cafe");
-            txtDesc.setText("Address:Police Line Rd, Barisal 8200\n\nHours: Open 10.00AM Closes 11:30PM\n\nMobile Number-" + mobilenumber[1]);
+            txtDesc.setText("AN AMERICAN RESTAURANT\n\nAddress:Police Line Rd, Barisal 8200\n\nHours: Open 10.00AM Closes 11:30PM\n\nMobile Number-" + mobilenumber[1]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -110,7 +110,7 @@ public class BarishalDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("three")) {
             imgRes5.setImageResource(R.drawable.barishal3);
             txtName.setText("EL Foodee");
-            txtDesc.setText("Address:Bells Park, Band Rd, Barisal\n\nHours: Closes: 10PM ⋅ Opens 10AM Thu\n\nMobile Number-" + mobilenumber[2]);
+            txtDesc.setText("A MAXICAN BASE RESTAURANT\n\nAddress:Bells Park, Band Rd, Barisal\n\nHours: Closes: 10PM ⋅ Opens 10AM Thu\n\nMobile Number-" + mobilenumber[2]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -146,7 +146,7 @@ public class BarishalDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("four")) {
             imgRes5.setImageResource(R.drawable.barishal4);
             txtName.setText("Handi Korai");
-            txtDesc.setText("Address:Top Floor, Hotel Arena,135 Sadar Road, Barisal\n\nHours: Open 9.00AM Closes 11:59PM\n\nMobile Number- " + mobilenumber[3]);
+            txtDesc.setText("A FAMILY STYLE INTERNATIONAL QUALITY RESTAURANT\n\nAddress:Top Floor, Hotel Arena,135 Sadar Road, Barisal\n\nHours: Open 9.00AM Closes 11:59PM\n\nMobile Number- " + mobilenumber[3]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -181,7 +181,7 @@ public class BarishalDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("five")) {
             imgRes5.setImageResource(R.drawable.barishal5);
             txtName.setText("China Palace");
-            txtDesc.setText("Address:Sadar Rd, Barisal\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- " + mobilenumber[4]);
+            txtDesc.setText("A CHINESE RESTAURANT\n\nAddress:Sadar Rd, Barisal\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- " + mobilenumber[4]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -216,7 +216,7 @@ public class BarishalDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("six")) {
             imgRes5.setImageResource(R.drawable.barishal6);
             txtName.setText("Tawa Restaurant");
-            txtDesc.setText("Address:1178, Choumatha, C and B Rd, Barisal\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- " + mobilenumber[5]);
+            txtDesc.setText("A MULTI CUISINE RESTAURANT\n\nAddress:1178, Choumatha, C and B Rd, Barisal\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- " + mobilenumber[5]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -251,7 +251,7 @@ public class BarishalDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("seven")) {
             imgRes5.setImageResource(R.drawable.barishal7);
             txtName.setText("Bells Diner");
-            txtDesc.setText("Address:Band Road, Barisal 8200\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- " + mobilenumber[6]);
+            txtDesc.setText("A MULTI CUISINE RESTAURANT\n\nAddress:Band Road, Barisal 8200\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- " + mobilenumber[6]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -286,7 +286,7 @@ public class BarishalDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("eight")) {
             imgRes5.setImageResource(R.drawable.barishal8);
             txtName.setText("Subtime");
-            txtDesc.setText("Address:862 East Bogra Road Barisal\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- " + mobilenumber[7]);
+            txtDesc.setText("A MAXICAN CUISINE RESTAURANT\n\nAddress:862 East Bogra Road Barisal\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- " + mobilenumber[7]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
