@@ -37,7 +37,7 @@ public class RajshahiDetailsActivity extends AppCompatActivity {
         if (getName.equals("one")) {
             imgRes3.setImageResource(R.drawable.rajshahi1);
             txtName.setText("Order's Up");
-            txtDesc.setText("Address:Jamal super market,2nd floor, Saheb Bazar Road, Rajshahi\n\nHours: Open 10:00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[0]);
+            txtDesc.setText("A FAST FOOD RESTAURANT\n\nAddress:Jamal super market,2nd floor, Saheb Bazar Road, Rajshahi\n\nHours: Open 10:00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[0]);
             btnCell.setText("CALL");
             btnMap.setText("MAP LOCATION");
 
@@ -73,7 +73,7 @@ public class RajshahiDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("two")) {
             imgRes3.setImageResource(R.drawable.rajshahi2);
             txtName.setText("Rahman's Bar-B-Q");
-            txtDesc.setText("Address: Greater Rd, Rajshahi\n\nHours: Open 10.00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[1]);
+            txtDesc.setText("A BARBECUE AND FAST FOOD RESTAURANT\n\nAddress: Greater Rd, Rajshahi\n\nHours: Open 10.00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[1]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -109,7 +109,7 @@ public class RajshahiDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("three")) {
             imgRes3.setImageResource(R.drawable.rajshahi3);
             txtName.setText("Master Chef");
-            txtDesc.setText("Address:R685, Rajshahi Association (Alokar More), Rajshahi 6100\n\nHours: Closes soon: 10PM ⋅ Opens 10AM Thu\n\nMobile Number-" +mobilenumber[2]);
+            txtDesc.setText("BOTH BANGLA AND CHINESE RESTAURANT\n\nAddress:R685, Rajshahi Association (Alokar More), Rajshahi 6100\n\nHours: Closes soon: 10PM ⋅ Opens 10AM Thu\n\nMobile Number-" +mobilenumber[2]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -145,7 +145,7 @@ public class RajshahiDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("four")) {
             imgRes3.setImageResource(R.drawable.rajshahi4);
             txtName.setText("Nanking Restaurant ");
-            txtDesc.setText("Address: Moni Bazar, Rajshahi\n\nHours: Open 9.00AM Closes 11:59PM\n\nMobile Number- "+mobilenumber[3]);
+            txtDesc.setText("A CHINESE RESTAURANT\n\nAddress: Moni Bazar, Rajshahi\n\nHours: Open 9.00AM Closes 11:59PM\n\nMobile Number- "+mobilenumber[3]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -181,7 +181,7 @@ public class RajshahiDetailsActivity extends AppCompatActivity {
         else if (getName.equals("five")) {
             imgRes3.setImageResource(R.drawable.rajshahi5);
             txtName.setText("The Hideout Cafe");
-            txtDesc.setText("Address:227, Level-2, New Widened Rd, Rajshahi 6100\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[4]);
+            txtDesc.setText("A FAST FOOD RESTAURANT\n\nAddress:227, Level-2, New Widened Rd, Rajshahi 6100\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[4]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -217,7 +217,7 @@ public class RajshahiDetailsActivity extends AppCompatActivity {
         else if (getName.equals("six")) {
             imgRes3.setImageResource(R.drawable.rajshahi6);
             txtName.setText("Twist and Taste");
-            txtDesc.setText("Address:Jamal Super Market, 1st floor, Rajshahi 6100\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[5]);
+            txtDesc.setText("A CHINESE AND FAST FOOD RESTAURANT\n\nAddress:Jamal Super Market, 1st floor, Rajshahi 6100\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[5]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -253,7 +253,7 @@ public class RajshahiDetailsActivity extends AppCompatActivity {
         else if (getName.equals("seven")) {
             imgRes3.setImageResource(R.drawable.rajshahi7);
             txtName.setText("Khan Teheri Ghor");
-            txtDesc.setText("Address:Senadighir Mor, Rajshahi\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[6]);
+            txtDesc.setText("A RESTAURANT THAT PROVIDE AUTHENTIC TEHARI\n\nAddress:Senadighir Mor, Rajshahi\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[6]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -289,7 +289,7 @@ public class RajshahiDetailsActivity extends AppCompatActivity {
         else if (getName.equals("eight")) {
             imgRes3.setImageResource(R.drawable.rajshahi8);
             txtName.setText("Salt Meat");
-            txtDesc.setText("Address: New Widened Rd, Rajshahi\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[7]);
+            txtDesc.setText("A FAST FOOD RESTAURANT\n\nAddress: New Widened Rd, Rajshahi\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[7]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
