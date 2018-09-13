@@ -37,7 +37,7 @@ public class MymensinghDetailsActivity extends AppCompatActivity {
         if (getName.equals("one")) {
             imgRes6.setImageResource(R.drawable.mymen1);
             txtName.setText("Sarinda Restaurant");
-            txtDesc.setText("Address:Eleven plaza, 2nd floor, CK Gosh Road, Mymensingh 2200\n\nHours: Open 10:00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[0]);
+            txtDesc.setText("A FAST FOOD AND INDIAN RSETAURANT\n\nAddress:Eleven plaza, 2nd floor, CK Gosh Road, Mymensingh 2200\n\nHours: Open 10:00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[0]);
             btnCell.setText("CALL");
             btnMap.setText("MAP LOCATION");
 
@@ -73,7 +73,7 @@ public class MymensinghDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("two")) {
             imgRes6.setImageResource(R.drawable.mymen2);
             txtName.setText("Avanti");
-            txtDesc.setText("Address:29 Ram Babu Road, Mymensingh\n\nHours: Open 10.00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[1]);
+            txtDesc.setText("A CHINESE RESTAURANT\n\nAddress:29 Ram Babu Road, Mymensingh\n\nHours: Open 10.00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[1]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -109,7 +109,7 @@ public class MymensinghDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("three")) {
             imgRes6.setImageResource(R.drawable.mymen3);
             txtName.setText("Dhanshiri Restaurant");
-            txtDesc.setText("Address:tower 2nd floor, Harun, 7 CK Ghosh Rd, Mymensingh 2200\n\nHours: Closes soon: 10PM ⋅ Opens 10AM Thu\n\nMobile Number-" +mobilenumber[2]);
+            txtDesc.setText("AN ASIAN FUSION RESTAURANT\n\nAddress:tower 2nd floor, Harun, 7 CK Ghosh Rd, Mymensingh 2200\n\nHours: Closes soon: 10PM ⋅ Opens 10AM Thu\n\nMobile Number-" +mobilenumber[2]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -145,7 +145,7 @@ public class MymensinghDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("four")) {
             imgRes6.setImageResource(R.drawable.mymen4);
             txtName.setText("Food King");
-            txtDesc.setText("Address:Mofizuddin Index Plaza, Ram Babu Rd, Mymensingh 2200\n\nHours: Open 9.00AM Closes 11:59PM\n\nMobile Number- "+mobilenumber[3]);
+            txtDesc.setText("A FAST FOOD RESTAURANT\n\nAddress:Mofizuddin Index Plaza, Ram Babu Rd, Mymensingh 2200\n\nHours: Open 9.00AM Closes 11:59PM\n\nMobile Number- "+mobilenumber[3]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -181,7 +181,7 @@ public class MymensinghDetailsActivity extends AppCompatActivity {
         else if (getName.equals("five")) {
             imgRes6.setImageResource(R.drawable.mymen5);
             txtName.setText("Rom III");
-            txtDesc.setText("Address:Peon Para Rd, Mymensingh 2200\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[4]);
+            txtDesc.setText("BOTH CHINESE AND BANGLA CUISINE RESTAURANT\n\nAddress:Peon Para Rd, Mymensingh 2200\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[4]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -217,7 +217,7 @@ public class MymensinghDetailsActivity extends AppCompatActivity {
         else if (getName.equals("six")) {
             imgRes6.setImageResource(R.drawable.mymen6);
             txtName.setText("Spice Klub");
-            txtDesc.setText("Address:90/24, 2nd floor, Rekha complex, CK Ghosh Rd, 2200\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[5]);
+            txtDesc.setText("A MULTI CUISINE RESTAURANT\n\nAddress:90/24, 2nd floor, Rekha complex, CK Ghosh Rd, 2200\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[5]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -253,7 +253,7 @@ public class MymensinghDetailsActivity extends AppCompatActivity {
         else if (getName.equals("seven")) {
             imgRes6.setImageResource(R.drawable.mymen7);
             txtName.setText("Best Bite");
-            txtDesc.setText("Address:First floor, 27 Ram Babu Rd, Mymensingh 2200\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[6]);
+            txtDesc.setText("A FAST FOOD RESTAURANT\n\nAddress:First floor, 27 Ram Babu Rd, Mymensingh 2200\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[6]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -289,7 +289,7 @@ public class MymensinghDetailsActivity extends AppCompatActivity {
         else if (getName.equals("eight")) {
             imgRes6.setImageResource(R.drawable.mymen8);
             txtName.setText("Crispicy");
-            txtDesc.setText("Address:Mofizuddin Index Plaza, Ram Babu Rd, Mymensingh 2200\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[7]);
+            txtDesc.setText("A FAST FOOD RESTAURANT\n\nAddress:Mofizuddin Index Plaza, Ram Babu Rd, Mymensingh 2200\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[7]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
