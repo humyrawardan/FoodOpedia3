@@ -37,7 +37,7 @@ public class RangpurDetailsActivity extends AppCompatActivity {
         if (getName.equals("one")) {
             imgRes4.setImageResource(R.drawable.rangpur1);
             txtName.setText("Ahar Restaurant");
-            txtDesc.setText("Address: Station Road, Rangpur\n\nHours: Open 10:00AM Closes 11:30PM\n\nMobile Number-" + mobilenumber[0]);
+            txtDesc.setText("BOTH BANGLA AND CHINESE RESTAURANT\n\nAddress: Station Road, Rangpur\n\nHours: Open 10:00AM Closes 11:30PM\n\nMobile Number-" + mobilenumber[0]);
             btnCell.setText("CALL");
             btnMap.setText("MAP LOCATION");
 
@@ -73,7 +73,7 @@ public class RangpurDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("two")) {
             imgRes4.setImageResource(R.drawable.rangpur2);
             txtName.setText("Lalbag Restaurant");
-            txtDesc.setText("Address: Lalbag Restaurant. Lalbag Rangpur\n\nHours: Open 10.00AM Closes 11:30PM\n\nMobile Number-" + mobilenumber[1]);
+            txtDesc.setText("A FAST FOOD RESTAURANT\n\nAddress: Lalbag Restaurant. Lalbag Rangpur\n\nHours: Open 10.00AM Closes 11:30PM\n\nMobile Number-" + mobilenumber[1]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -109,7 +109,7 @@ public class RangpurDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("three")) {
             imgRes4.setImageResource(R.drawable.rangpur3);
             txtName.setText("Cicily");
-            txtDesc.setText("Address: City Bazar Rd, Rangpur\n\nHours: Closes: 10PM ⋅ Opens 10AM Thu\n\nMobile Number-" + mobilenumber[2]);
+            txtDesc.setText("A CHINESE RESTAURANT\n\nAddress: City Bazar Rd, Rangpur\n\nHours: Closes: 10PM ⋅ Opens 10AM Thu\n\nMobile Number-" + mobilenumber[2]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -145,7 +145,7 @@ public class RangpurDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("four")) {
             imgRes4.setImageResource(R.drawable.rangpur4);
             txtName.setText("Shawarma Kitchen");
-            txtDesc.setText("Address:Rangpur City Bypass, Rangpur\n\nHours: Open 9.00AM Closes 11:59PM\n\nMobile Number- " + mobilenumber[3]);
+            txtDesc.setText("A FAST FOOD RESTAURANT\n\nAddress:Rangpur City Bypass, Rangpur\n\nHours: Open 9.00AM Closes 11:59PM\n\nMobile Number- " + mobilenumber[3]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -180,7 +180,7 @@ public class RangpurDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("five")) {
             imgRes4.setImageResource(R.drawable.rangpur5);
             txtName.setText("Nehal Hotel");
-            txtDesc.setText("Address:N517, Rangpur\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- " + mobilenumber[4]);
+            txtDesc.setText("AN AUTHENTIC BANGLA RESTAURANT\n\nAddress:N517, Rangpur\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- " + mobilenumber[4]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -215,7 +215,7 @@ public class RangpurDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("six")) {
             imgRes4.setImageResource(R.drawable.rangpur6);
             txtName.setText("Kosturi Restaurant");
-            txtDesc.setText("Address:N5, Rangpur\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- " + mobilenumber[5]);
+            txtDesc.setText("AN AUTHENTIC BANGLA RESTAURANT\n\nAddress:N5, Rangpur\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- " + mobilenumber[5]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -250,7 +250,7 @@ public class RangpurDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("seven")) {
             imgRes4.setImageResource(R.drawable.rangpur7);
             txtName.setText("Foodish");
-            txtDesc.setText("Address:Dhaap Road, Rangpur\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- " + mobilenumber[6]);
+            txtDesc.setText("A FAST FOOD RESTAURANT\n\nAddress:Dhaap Road, Rangpur\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- " + mobilenumber[6]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -285,7 +285,7 @@ public class RangpurDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("eight")) {
             imgRes4.setImageResource(R.drawable.rangpur8);
             txtName.setText("Nasta-La-Vista");
-            txtDesc.setText("Address:House No. 81, Road No. 1, Islampur, Hanuman Tala Road, 5400\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- " + mobilenumber[7]);
+            txtDesc.setText("A FAST FOOD AND CHINESE RESTAURANT\n\nAddress:House No. 81, Road No. 1, Islampur, Hanuman Tala Road, 5400\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- " + mobilenumber[7]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
