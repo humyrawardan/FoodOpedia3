@@ -37,7 +37,7 @@ public class SylhetDetailsActivity extends AppCompatActivity {
         if (getName.equals("one")) {
             imgRes2.setImageResource(R.drawable.sylhet1);
             txtName.setText("The Mad Grill");
-            txtDesc.setText("Address:  Nayasarak Point, Manik Pir Road, 3100\n\nHours: Open 10:00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[0]);
+            txtDesc.setText("A MULTI CUISINE RESTAURANT\n\nAddress:  Nayasarak Point, Manik Pir Road, 3100\n\nHours: Open 10:00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[0]);
             btnCell.setText("CALL");
             btnMap.setText("MAP LOCATION");
 
@@ -73,7 +73,7 @@ public class SylhetDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("two")) {
             imgRes2.setImageResource(R.drawable.sylhet2);
             txtName.setText("Panshi Restaurant");
-            txtDesc.setText("Address: Jallarpar Road Zindabazar, Sylhet 3100\n\nHours: Open 10.00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[1]);
+            txtDesc.setText("AN AUTHENTIC BANGLA RESTAURANT\n\nAddress: Jallarpar Road Zindabazar, Sylhet 3100\n\nHours: Open 10.00AM Closes 11:30PM\n\nMobile Number-"+mobilenumber[1]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -109,7 +109,7 @@ public class SylhetDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("three")) {
             imgRes2.setImageResource(R.drawable.sylhet3);
             txtName.setText("Woondaal King Kabab");
-            txtDesc.setText("Address: Barud Kana Point Purbo Zinda Bazar Barutkhana Road, 3100\n\nHours: Closes soon: 10PM ⋅ Opens 10AM Thu\n\nMobile Number-" +mobilenumber[2]);
+            txtDesc.setText("AN AUTHENTIC KABAB HOUSE\n\nAddress: Barud Kana Point Purbo Zinda Bazar Barutkhana Road, 3100\n\nHours: Closes soon: 10PM ⋅ Opens 10AM Thu\n\nMobile Number-" +mobilenumber[2]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -145,7 +145,7 @@ public class SylhetDetailsActivity extends AppCompatActivity {
         } else if (getName.equals("four")) {
             imgRes2.setImageResource(R.drawable.sylhet4);
             txtName.setText("Pach Bhai Restaurant");
-            txtDesc.setText("Address:Dariapara Road, Sylhet 3100\n\nHours: Open 9.00AM Closes 11:59PM\n\nMobile Number- "+mobilenumber[3]);
+            txtDesc.setText("AN AUTHENTIC BANGLA RESTAURANT\n\nAddress:Dariapara Road, Sylhet 3100\n\nHours: Open 9.00AM Closes 11:59PM\n\nMobile Number- "+mobilenumber[3]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -181,7 +181,7 @@ public class SylhetDetailsActivity extends AppCompatActivity {
         else if (getName.equals("five")) {
             imgRes2.setImageResource(R.drawable.sylhet5);
             txtName.setText("New Handi restaurant");
-            txtDesc.setText("Address:Karima Mansion, Hazrat Shahjalal Rd, Sylhet 3100\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[4]);
+            txtDesc.setText("AN INDIAN CUISINE RESTAURANT\n\nAddress:Karima Mansion, Hazrat Shahjalal Rd, Sylhet 3100\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[4]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -217,7 +217,7 @@ public class SylhetDetailsActivity extends AppCompatActivity {
         else if (getName.equals("six")) {
             imgRes2.setImageResource(R.drawable.sylhet6);
             txtName.setText("Alphine Restaurant");
-            txtDesc.setText("Address:Karimganj - Sylhet Road, Sylhet 3100\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[5]);
+            txtDesc.setText("AN ASIAN FUSION CUISINE RESTAURANT\n\nAddress:Karimganj - Sylhet Road, Sylhet 3100\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[5]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -253,7 +253,7 @@ public class SylhetDetailsActivity extends AppCompatActivity {
         else if (getName.equals("seven")) {
             imgRes2.setImageResource(R.drawable.sylhet7);
             txtName.setText("Stacks O'Snacks");
-            txtDesc.setText("Address: 1st floor(Opposite of Car City) Darshondowri,West, Sylhet - Sunamganj Hwy, Sylhet\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[6]);
+            txtDesc.setText("A RESTAURANT BEST FOR SUBSANDWICHES\n\nAddress: 1st floor(Opposite of Car City) Darshondowri,West, Sylhet - Sunamganj Hwy, Sylhet\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[6]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
@@ -289,7 +289,7 @@ public class SylhetDetailsActivity extends AppCompatActivity {
         else if (getName.equals("eight")) {
             imgRes2.setImageResource(R.drawable.sylhet8);
             txtName.setText("Hot Spot");
-            txtDesc.setText("Address:Ground Floor, Sylhet Millennium, Zinda Bazar, Sylhet 3100\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[7]);
+            txtDesc.setText("A MULTICUISINE RESTAURANT\n\nAddress:Ground Floor, Sylhet Millennium, Zinda Bazar, Sylhet 3100\n\nHours: Closes  11PM ⋅ Opens 12PM Thu\n\nMobile Number- "+mobilenumber[7]);
 
             btnCell.setText("CALL");
             btnCell.setOnClickListener(new View.OnClickListener() {
